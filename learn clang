@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int a,b,p,r,s,ppcm;
+    printf("entrez deux nombres a et b tel que a>b\n");
+    scanf("%d %d",&a,&b);
+    p=a*b;
+    r=a%b;
+    while(p!=0){
+        s=a;
+        a=b;
+        b=a%b;
+    }
+    ppcm=b/p;
+    printf("le ppcm de a et b est:\n")
+    return(0);
+    }
